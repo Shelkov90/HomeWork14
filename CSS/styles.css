@@ -1,0 +1,169 @@
+body{
+	max-width: 1200px;
+	margin: 10px auto;
+}
+.header{
+	width: 100%;
+	background-color: #1B5589;
+	}
+.header img{
+	width: 5%;
+	float:right;
+	vertical-align: top;
+	margin-top: -85px;
+	margin-right: 80px;
+	}
+.menu{
+	box-sizing: border-box;
+	display:flex ;
+	list-style-type: none;
+   width: 100%;
+	padding: 30px;
+	padding-left: 80px;
+	}
+.menu li a{
+	display: block;
+	text-decoration: none;
+	color:#4397C2;
+	margin-left: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.menu li a:hover{
+	color: #F9F6F4;
+}
+h1{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:lighter;
+	color:#283A6C;
+	margin-bottom: 30px;
+}
+.list{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	list-style-type: none;
+	background-color: #CCE5FF;
+	padding: 20px;
+	padding-left: 60px;
+	padding-right: 140px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+.list li a{
+	text-decoration: none;
+	color: #4674AE;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.list li:nth-child(2){
+	margin-left:-80px;
+}
+form{
+	display: grid;
+	grid-template-columns:1fr 2fr 2fr;
+	grid-auto-rows: auto;
+	grid-row-gap: 13px;
+}
+img{
+	width:50%;
+	margin-left: 70px;
+}
+form div:nth-child(1){
+	grid-column:1/2;
+   grid-row: 1/7;
+}
+form div:nth-child(11){
+	grid-column:2/3;
+   grid-row: 6/7;
+}
+form div:nth-child(12){
+	grid-column:2/3;
+   grid-row: 7/8;
+}
+input{
+	font-family: Arial, Helvetica, sans-serif;
+	width:90%;
+	padding: 5px;
+	border-color: #DDE1E5;
+	color:#97A7BB;
+	outline: 0px;
+}
+.middle{
+	width: 94%;
+	margin-left: 40px;
+}
+button{
+	font-family: Arial, Helvetica, sans-serif;
+	width:93%;
+	padding: 5px;
+	background-color: #6C757D;
+	color: #F9F6F4;
+	border-radius: 5px;
+}
+form div:nth-child(1) button{
+	width:60%;
+	margin-left: 55px;
+}
+button:hover{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.list{
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	list-style-type: none;
+	background-color: #CCE5FF;
+	padding: 20px;
+}
+.list li a{
+	text-decoration: none;
+	color: #4674AE;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+	

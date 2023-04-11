@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Account</title>
+	<link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<ul class="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Homework</a></li>
+				<li><a href="#">Settings</a></li>
+			</ul>
+			<img src="images/av_64.png" alt="alt">
+		</div>
+		<h1>Settings</h1>
+		<div class="middle">
+		<ul class="list">
+			<li><a href="#">Avatar</a></li>
+			<li><a href="#">Student's info</a></li>
+			<li><a href="#">Change password</a></li>
+		</ul>
+	</div>
+		<form action="#" method="post">
+			<div>
+				<img src="images/av_256.png" alt="alt"><br>
+			<button>Choose foto</button>
+		</div>
+			<div>
+				<input type="text" required placeholder="First name" maxlength="25" pattern="[A-Za-zА-Яа-яЁё]{2,25}">
+			</div>
+			<div>
+				<input type="password" required placeholder="Old password" maxlength="10" pattern="[0-9]{,10}">
+			</div>
+			<div>
+				<input type="text" required placeholder="Last name" maxlength="25" pattern="[A-Za-zА-Яа-яЁё]{2,25}">
+			</div>
+			<div>
+				<input type="password" required placeholder="New password" maxlength="10" pattern="[0-9]{,10}">
+			</div>
+			<div>
+				<input type="email" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}">
+			</div>
+			<div>
+				<input type="password" required placeholder="Repeat password" maxlength="10" pattern="[0-9]{,10}">
+			</div>
+			<div>
+				<input type="text" required placeholder="Phone number" pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="13" maxlength="13">
+			</div>
+			<div>
+				<button type="submit">Change password</button>
+			</div>
+			<div>
+				<input type="text" required placeholder="Address" maxlength="25" pattern="[A-Za-zА-Яа-яЁё]{2,25}">
+			</div>
+			<div>
+				<input type="text" required placeholder="FB link" maxlength="15" pattern="[A-Za-zА-Яа-яЁё]{15}">
+			</div>
+			<div>
+				<button type="submit">Save changes</button></div>
+		</form>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <ul class="list">
+	<li><a href="#">Avatar</a></li>
+	<li><a href="#">Student's info</a></li>
+	<li><a href="#">Change password</a></li>
+</ul> -->
