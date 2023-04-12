@@ -28,11 +28,14 @@
 		</ul>
 	</div>
 		<div class="profile">
-			<form class="first">
+			<form action="#" method="post" class="first">
 				<img src="images/av_256.png" alt="alt"><br>
-			<button>Choose foto</button>
+		<input type="file" id="my">
+		<label for="my">
+			<div class="mybtn">Choose foto</div>
+		</label>
 		</form>
-	<form class="second">
+	<form action="#" method="post" class="second">
 			<input type="text" required placeholder="First name" maxlength="25" pattern="[A-Za-zА-Яа-яЁё]{2,25}">
 			<input type="text" required placeholder="Last name" maxlength="25" pattern="[A-Za-zА-Яа-яЁё]{2,25}">
 	      <input type="email" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}">
@@ -41,7 +44,7 @@
 			<input type="text" required placeholder="FB link" maxlength="15" pattern="[A-Za-zА-Яа-яЁё]{15}">
 			<button type="submit">Save changes</button>
 	</form>
-	<form class="third">
+	<form action="#" method="post" class="third">
       <input type="password" required placeholder="Old password" maxlength="10" pattern="[0-9]{,10}">
 		<input type="password" required placeholder="New password" maxlength="10" pattern="[0-9]{,10}">
 		<input type="password" required placeholder="Repeat password" maxlength="10" pattern="[0-9]{,10}">
