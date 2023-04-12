@@ -3,23 +3,32 @@ body{
 	margin: 10px auto;
 }
 .header{
+	display: flex;
+	justify-content: space-between;
 	width: 100%;
 	background-color: #1B5589;
+	padding: 5px;
 	}
-.header img{
-	width: 5%;
-	float:right;
-	vertical-align: top;
-	margin-top: -85px;
-	margin-right: 60px;
+.logo a{
+	display: block;
+	margin-left: 25px;
+	margin-top: 5px;
 	}
+.logo img{
+	width:80%;
+	padding: 2px;
+	}
+.girl img{
+	margin-right: 70px;
+}
 .menu{
+	position: absolute;
 	box-sizing: border-box;
 	display:flex ;
 	list-style-type: none;
-   width: 100%;
-	padding: 30px;
-	padding-left: 80px;
+   width: 30%;
+	margin-left: 80px;
+	margin-top: 25px;
 	}
 .menu li a{
 	display: block;
@@ -70,7 +79,7 @@ h1{
 	width: 100%;
 	justify-content: space-between;
 }
-img{
+.profile img{
 	width:50%;
 	margin-left: 60px;
 }
@@ -116,94 +125,6 @@ input{
 .third{
 	width:50%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.profile{
-	display: grid;
-	grid-template-columns:1fr 2fr 2fr;
-	grid-auto-rows: auto;
-	grid-row-gap: 13px;
-}
-img{
-	width:50%;
-	margin-left: 70px;
-}
-.profile .first{
-	grid-column:1/2;
-   grid-row: 1/7;
-}
-.profile div:nth-child(11){
-	grid-column:2/3;
-   grid-row: 6/7;
-}
-.profile div:nth-child(12){
-	grid-column:2/3;
-   grid-row: 7/8;
-}
-input{
-	font-family: Arial, Helvetica, sans-serif;
-	width:90%;
-	padding: 5px;
-	border-color: #DDE1E5;
-	color:#97A7BB;
-	outline: 0px;
-}
-.middle{
-	width: 94%;
-	margin-left: 40px;
-}
-button{
-	font-family: Arial, Helvetica, sans-serif;
-	width:93%;
-	padding: 5px;
-	background-color: #6C757D;
-	color: #F9F6F4;
-	border-radius: 5px;
-}
-.profile .first button{
-	width:60%;
-	margin-left: 55px;
-}
-button:hover{
-	cursor: pointer;
-}
-
-
-
-
-
-
-
-
 
 
 
